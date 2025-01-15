@@ -1,0 +1,3 @@
+	|Simple Roti		Rs. 50
+	|Chicken Karachi		Rs. 650
+	|Biscuit		Rs. 100
