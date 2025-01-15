@@ -158,16 +158,6 @@ public:
             cin >> gender[i];
             // cout << "Yours details are saved with us.\n";
         }
-        /* cout << "\n Enter the customer ID :";
-         // cin >> cId;
-         cout << "\n Enter the Name :";
-         cin >> name;
-         cout << "\n Enter the age :";
-         cin >> age;
-         cout << "\n Enter the address :";
-         cin >> add;
-         cout << "\n Gender:";
-         cin >> gender;*/
         cout << "Yours details are saved with us" << endl;
         cout << "Your PNR number is: " << pnr << endl;
         cout << "Please use this PNR number to book tickets!" << endl
@@ -202,7 +192,7 @@ public:
         case 1: {
             cout << "_WELCOME TO ISLAMABAD\n"
                  << endl;
-            cout << " your comfort is our priority , Enjoy the journey!" << endl;
+            cout << "Your comfort is our priority. Enjoy the journey!" << endl;
             cout << " Following are the Trains \n"
                  << endl;
 
@@ -213,9 +203,9 @@ public:
             cout << " 3.ISB-727" << endl;
             cout << "\t10-01-2024  11:00AM  20hrs  3A-Rs.2400 2A-Rs.3500 1A-Rs.5100" << endl;
 
-            cout << "\n Select the Trains you want to book : ";
+            cout << "\n Select the Trains you want to book: ";
             cin >> choice1;
-            cout << "\n Enter the AC class in which u want to travel : ";
+            cout << "\n Enter the AC class in which u want to travel: ";
             cin >> f;
             if (choice1 == 1) {
                 if (f == 3) {
@@ -227,7 +217,7 @@ public:
                 else if (f == 1) {
                     charges = 5200;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN ISB-275" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN ISB-275" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else if (choice1 == 2) {
                 if (f == 3) {
@@ -237,7 +227,7 @@ public:
                 } else if (f == 1) {
                     charges = 5400;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN ISB-731" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN ISB-731" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else if (choice1 == 3) {
                 if (f == 3) {
@@ -247,10 +237,10 @@ public:
                 } else if (f == 1) {
                     charges = 5100;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN ISB-727" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN ISB-727" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else {
-                cout << " Invalid input,shifting to previous menu" << endl;
+                cout << "Invalid input, shifting to the previous menu" << endl;
                 trains();
             }
             cout << " press any key to go back to the main menu: " << endl;
@@ -265,7 +255,7 @@ public:
         case 2: {
             cout << "_WELCOME TO SARGODHA\n"
                  << endl;
-            cout << " your comfort is our priority , Enjoy the journey!" << endl;
+            cout << "Your comfort is our priority. Enjoy the journey!" << endl;
             cout << " Following are the Trains \n"
                  << endl;
 
@@ -276,9 +266,9 @@ public:
             cout << " 3.SGD-973" << endl;
             cout << "\t22-01-2024  11:00PM  20hrs 3A-Rs.950 2A-Rs.1000 1A-Rs.1200" << endl;
 
-            cout << "\n Select the TRAINS you want to book : ";
+            cout << "\n Select the TRAINS you want to book: ";
             cin >> choice1;
-            cout << "\n Enter the AC class in which u want to travel : ";
+            cout << "\n Enter the AC class in which u want to travel: ";
             cin >> f;
 
             if (choice1 == 1) {
@@ -289,7 +279,7 @@ public:
                 } else if (f == 1) {
                     charges = 4400;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN SGD-845" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN SGD-845" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else if (choice1 == 2) {
                 if (f == 3) {
@@ -299,7 +289,7 @@ public:
                 } else if (f == 1) {
                     charges = 4800;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN SGD-638" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN SGD-638" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else if (choice1 == 3) {
                 if (f == 3) {
@@ -309,10 +299,10 @@ public:
                 } else if (f == 1) {
                     charges = 4500;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN SGD-973" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN SGD-973" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else {
-                cout << " Invalid input,shifting to previous menu" << endl;
+                cout << "Invalid input, shifting to the previous menu" << endl;
                 trains();
             }
             cout << " press any key to go back to the main menu: " << endl;
@@ -329,7 +319,7 @@ public:
         case 3: {
             cout << "_WELCOME TO FAISALABAD\n"
                  << endl;
-            cout << " your comfort is our priority , Enjoy the journey!" << endl;
+            cout << "Your comfort is our priority. Enjoy the journey!" << endl;
             cout << " Following are the TRAINS \n"
                  << endl;
 
@@ -340,9 +330,9 @@ public:
             cout << " 3.LYP-1084" << endl;
             cout << "\t26-01-2024  4:00PM  20hrs  3A-Rs.800 2A-Rs.1500 1A-Rs.2000" << endl;
 
-            cout << "\n Select the TRAINS you want to book : ";
+            cout << "\n Select the TRAINS you want to book: ";
             cin >> choice1;
-            cout << "\n Enter the AC class in which u want to travel : ";
+            cout << "\n Enter the AC class in which u want to travel: ";
             cin >> f;
 
             if (choice1 == 1) {
@@ -353,7 +343,7 @@ public:
                 } else if (f == 1) {
                     charges = 5500;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN LYP-862" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN LYP-862" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else if (choice1 == 2) {
                 if (f == 3) {
@@ -363,7 +353,7 @@ public:
                 } else if (f == 1) {
                     charges = 5600;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN LYP-759" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN LYP-759" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else if (choice1 == 3) {
                 if (f == 3) {
@@ -373,10 +363,10 @@ public:
                 } else if (f == 1) {
                     charges = 5700;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN LYP-1084" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN LYP-1084" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else {
-                cout << " Invalid input,shifting to previous menu" << endl;
+                cout << "Invalid input, shifting to the previous menu" << endl;
                 trains();
             }
             cout << " press any key to go back to the main menu: " << endl;
@@ -392,7 +382,7 @@ public:
         case 4: {
             cout << "_WELCOME TO LAHORE\n"
                  << endl;
-            cout << " your comfort is our priority , Enjoy the journey!" << endl;
+            cout << "Your comfort is our priority. Enjoy the journey!" << endl;
             cout << " Following are the TRAINS \n"
                  << endl;
 
@@ -403,9 +393,9 @@ public:
             cout << " 1.LHR-612" << endl;
             cout << "\t16-03-2024  4:00PM  20hrs 3AC-Rs.800 2AC-Rs.1500 1AC-Rs.2000" << endl;
 
-            cout << "\n Select the TRAINS you want to book : ";
+            cout << "\n Select the TRAINS you want to book: ";
             cin >> choice1;
-            cout << "\n Enter the AC class in which u want to travel : ";
+            cout << "\n Enter the AC class in which u want to travel: ";
             cin >> f;
 
             if (choice1 == 1) {
@@ -416,7 +406,7 @@ public:
                 } else if (f == 1) {
                     charges = 3400;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN LHR-608" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN LHR-608" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else if (choice1 == 2) {
                 if (f == 3) {
@@ -426,7 +416,7 @@ public:
                 } else if (f == 1) {
                     charges = 3500;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN LHR-610" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN LHR-610" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else if (choice1 == 3) {
                 if (f == 3) {
@@ -436,10 +426,10 @@ public:
                 } else if (f == 1) {
                     charges = 4200;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN LHR-612" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN LHR-612" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else {
-                cout << " Invalid input,shifting to previous menu" << endl;
+                cout << "Invalid input, shifting the o previous menu" << endl;
                 trains();
             }
             cout << " press any key to go back to the main menu: " << endl;
@@ -455,7 +445,7 @@ public:
         case 5: {
             cout << "_WELCOME TO MULTAN\n"
                  << endl;
-            cout << " your comfort is our priority , Enjoy the journey!" << endl;
+            cout << "Your comfort is our priority, Enjoy the journey!" << endl;
             cout << " Following are the TRAINS \n"
                  << endl;
 
@@ -466,9 +456,9 @@ public:
             cout << " 3.MUX-624" << endl;
             cout << "\t19-01-2024  4:00PM  20hrs 3A-Rs.700 2A-Rs.950 1A-Rs.1550" << endl;
 
-            cout << "\n Select the TRAINS you want to book : ";
+            cout << "\n Select the TRAINS you want to book: ";
             cin >> choice1;
-            cout << "\n Enter the AC class in which u want to travel : ";
+            cout << "\n Enter the AC class in which u want to travel: ";
 
             cin >> f;
 
@@ -480,7 +470,7 @@ public:
                 } else if (f == 1) {
                     charges = 5300;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN MUX-620" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN MUX-620" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else if (choice1 == 2) {
                 if (f == 3) {
@@ -490,7 +480,7 @@ public:
                 } else if (f == 1) {
                     charges = 5400;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN MUX-622" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN MUX-622" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else if (choice1 == 3) {
                 if (f == 3) {
@@ -500,10 +490,10 @@ public:
                 } else if (f == 1) {
                     charges = 5500;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN MUX-624" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN MUX-624" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else {
-                cout << " Invalid input,shifting to previous menu" << endl;
+                cout << "Invalid input, shifting to the previous menu" << endl;
                 trains();
             }
             cout << " press any key to go back to the main menu: " << endl;
@@ -519,7 +509,7 @@ public:
         case 6: {
             cout << "_WELCOME TO HYDERABAD\n"
                  << endl;
-            cout << " your comfort is our priority , Enjoy the journey!" << endl;
+            cout << "Your comfort is our priority, Enjoy the journey!" << endl;
             cout << " Following are the TRAINS \n"
                  << endl;
 
@@ -530,9 +520,9 @@ public:
             cout << " 3.HYD-948" << endl;
             cout << "\t06-09-2022  4:00PM  20hrs  3A-Rs.1850 2A-Rs.3100 1A-Rs.3250" << endl;
 
-            cout << "\n Select the TRAINS you want to book : ";
+            cout << "\n Select the TRAINS you want to book: ";
             cin >> choice1;
-            cout << "\n Enter the AC class in which u want to travel : ";
+            cout << "\n Enter the AC class in which u want to travel: ";
             cin >> f;
 
             if (choice1 == 1) {
@@ -543,7 +533,7 @@ public:
                 } else if (f == 1) {
                     charges = 3700;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN HYD-944" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN HYD-944" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else if (choice1 == 2) {
                 if (f == 3) {
@@ -553,7 +543,7 @@ public:
                 } else if (f == 1) {
                     charges = 3800;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN HYD-946" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN HYD-946" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else if (choice1 == 3) {
                 if (f == 3) {
@@ -563,10 +553,10 @@ public:
                 } else if (f == 1) {
                     charges = 3900;
                 }
-                cout << "\n YOU HAVE SUCCESFULLY BOOKED THE TRAIN HYD-948" << endl;
+                cout << "\n YOU HAVE SUCCESSFULLY BOOKED THE TRAIN HYD-948" << endl;
                 cout << " YOU CAN GO BACK TO MENU AND TAKE THE TICKET " << endl;
             } else {
-                cout << " Invalid input,shifting to previous menu" << endl;
+                cout << "Invalid input, shifting to the previous menu" << endl;
                 trains();
             }
             cout << " press any key to go back to the main menu: " << endl;
@@ -580,7 +570,7 @@ public:
             break;
         }
         default: {
-            cout << " INVALID input,Shifting you to the main menu !" << endl;
+            cout << " INVALID input, Shifting you to the main menu!" << endl;
             mainMenu();
             break;
         }
@@ -837,7 +827,7 @@ public:
              << "\t\t|" << endl;
 
         int choicess[8], noOfItems;
-        cout << "Enter the number of Items you want to book: " << endl;
+        cout << "Enter the number of items you want to book: " << endl;
         cin >> noOfItems;
         for (int i = 0; i < noOfItems; i++) {
         tryagain:
@@ -941,7 +931,7 @@ public:
             f2.close();
             f3.close();
         }
-        cout << "Order Placed Successfully! Please collect your Reciept by Print Reciept option!" << endl;
+        cout << "Order Placed Successfully! Please collect your receipt by using the Print Receipt option!" << endl;
         system("pause");
         foodOptions();
     }
@@ -1020,7 +1010,7 @@ void mainMenu() {
     registration r;
     ticket t;
     orderFood f;
-    // cancel c;
+    cancel c;
     switch (lchoice) {
     case 1: {
         char filename[] = "tickets.txt";
@@ -1047,7 +1037,7 @@ void mainMenu() {
         cout << "____Getting your Ticket___" << endl
              << endl;
         t.Bill();
-        cout << "Your Ticket is printed, you can collect it" << endl
+        cout << "Your ticket is printed, you can collect it" << endl
              << endl;
         cout << "Press 1 to display your ticket ";
         cin >> back;
@@ -1107,7 +1097,6 @@ void mainMenu() {
     }
     }
 }
-// mainmenu2
 void mainMenu2() {
     int lchoice;
     int schoice, back;
@@ -1119,12 +1108,12 @@ void mainMenu2() {
     cout << "\t___________________________________________________________" << endl;
     cout << "\t|\t\t\t\t\t\t\t|" << endl;
 
-    cout << "\t|\t Press 1 to add the Customer Details    \t|" << endl;
+    cout << "\t|\t Press 1 to Add the Customer Details    \t|" << endl;
     cout << "\t|\t Press 2 for Train Booking              \t|" << endl;
     cout << "\t|\t Press 3 for Ticket and Charges         \t|" << endl;
 
     cout << "\t|\t Press 4 to Cancel                      \t|" << endl;
-    cout << "\t|\t Press 5 to order food                  \t|" << endl;
+    cout << "\t|\t Press 5 to Order Food                  \t|" << endl;
 
     cout << "\t|\t Press 6 exit                           \t|" << endl;
     cout << "\t|\t\t\t\t\t\t\t|" << endl;
@@ -1137,7 +1126,7 @@ void mainMenu2() {
     registration r;
     ticket t;
     orderFood f;
-    // cancel c;
+    cancel c;
     switch (lchoice) {
     case 1: {
         char filename[] = "tickets.txt";
@@ -1166,7 +1155,7 @@ void mainMenu2() {
              << endl;
         t.Bill();
 
-        cout << "Your Ticket is printed, you can collect it" << endl
+        cout << "Your ticket is printed, you can collect it" << endl
              << endl;
 
         cout << "Press 1 to display your ticket ";
@@ -1209,18 +1198,17 @@ void mainMenu2() {
         break;
     }
     default: {
-        cout << "Invalid Input, Please try again!" << endl
+        cout << "Invalid Input, please try again!" << endl
              << endl;
         mainMenu();
         break;
     }
     }
 };
-
 int main() {
     Management mobj;
-    // orderFood f;
-    // f.foodOptions();
-    // f.displayFoodDatabase();
+    orderFood f;
+    f.foodOptions();
+    f.displayFoodDatabase();
     return 0;
 }
